@@ -1,0 +1,29 @@
+{
+  "minecraft:recipes/building_blocks/lit_pumpkin": {
+    "criteria": {
+      "has_pumpkin": "2018-12-08 20:48:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2018-12-08 20:48:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2018-12-08 20:48:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2018-12-08 20:48:44 +0000",
+      "swampland": "2018-12-08 20:47:28 +0000",
+      "savanna": "2018-12-08 20:48:36 +0000",
+      "ocean": "2018-12-08 20:48:11 +0000"
+    },
+    "done": false
+  }
+}
