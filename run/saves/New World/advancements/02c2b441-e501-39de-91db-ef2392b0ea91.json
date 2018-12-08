@@ -1,0 +1,17 @@
+{
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2018-12-08 18:53:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "swampland": "2018-12-08 18:52:57 +0000",
+      "plains": "2018-12-08 18:51:18 +0000",
+      "ocean": "2018-12-08 18:53:32 +0000",
+      "river": "2018-12-08 18:52:57 +0000"
+    },
+    "done": false
+  }
+}

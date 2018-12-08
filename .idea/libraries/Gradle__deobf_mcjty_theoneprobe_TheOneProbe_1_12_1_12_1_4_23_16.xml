@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: deobf.mcjty.theoneprobe:TheOneProbe-1.12:1.12-1.4.23-16">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/minecraft/deobfedDeps/deobf/mcjty/theoneprobe/TheOneProbe-1.12/1.12-1.4.23-16/TheOneProbe-1.12-1.12-1.4.23-16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/minecraft/deobfedDeps/deobf/mcjty/theoneprobe/TheOneProbe-1.12/1.12-1.4.23-16/TheOneProbe-1.12-1.12-1.4.23-16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

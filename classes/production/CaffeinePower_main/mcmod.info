@@ -1,0 +1,15 @@
+[
+{
+  "modid": "coffeepow",
+  "name": "CaffeinePower",
+  "description": "Caffeine, great for GamingOn",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "discord.gg/EDaF8UU",
+  "updateUrl": "",
+  "authorList": ["SilverBranch"],
+  "credits": "Electrofried",
+  "logoFile": "",
+  "screenshots": []
+}
+]
