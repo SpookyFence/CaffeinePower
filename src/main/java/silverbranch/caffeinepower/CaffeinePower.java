@@ -21,10 +21,10 @@ public class CaffeinePower {
     @SidedProxy(clientSide = "silverbranch.caffeinepower.proxy.ClientProxy", serverSide = "silverbranch.caffeinepower.proxy.ServerProxy")
     public static CommonProxy proxy;
 
-    public static CreativeTabs creativeTab = new CreativeTabs("CaffeinePower") {
+    public static CreativeTabs creativeTab = new CreativeTabs("caffeinepower") {
         @Override
         public ItemStack getTabIconItem() {
-            return new ItemStack(ModBlocks.blockFastFurnace);
+            return new ItemStack(ModBlocks.blockCoffeeGen);
         }
     };
 

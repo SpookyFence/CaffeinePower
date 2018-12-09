@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cube",
+    "textures": {
+      "north": "caffeinepower:blocks/coffeegen_front",
+      "south": "caffeinepower:blocks/coffeegen_side",
+      "west": "caffeinepower:blocks/coffeegen_side",
+      "east": "caffeinepower:blocks/coffeegen_side",
+      "up": "caffeinepower:blocks/coffeegen_top",
+      "down": "caffeinepower:blocks/coffeegen_base"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}],
+    "facing": {
+      "north": {},
+      "south": {"y": 180},
+      "west": {"y": 270},
+      "east": {"y": 90},
+      "up": {"x": -90},
+      "down": {"x": 90}
+    }
+  }
+}

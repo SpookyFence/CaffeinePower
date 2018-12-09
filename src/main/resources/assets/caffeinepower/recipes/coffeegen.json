@@ -1,0 +1,27 @@
+{
+  "result": {
+    "item": "caffeinepower:coffeegen"
+  },
+  "pattern": [
+    "bsb",
+    "scs",
+    "sfs"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "b": {
+      "item": "minecraft:glass_bottle"
+    },
+    "s": {
+      "item": "minecraft:stone",
+      "data": 0
+    },
+    "c": {
+      "item": "minecraft:coal",
+      "data": 1
+    },
+    "f": {
+      "item": "minecraft:furnace"
+    }
+  }
+}
