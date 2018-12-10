@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cube",
+    "textures": {
+      "north": "caffeinepower:blocks/brewer_front_off",
+      "south": "caffeinepower:blocks/brewer_side",
+      "west": "caffeinepower:blocks/brewer_side",
+      "east": "caffeinepower:blocks/brewer_side",
+      "up": "caffeinepower:blocks/brewer_top",
+      "down": "caffeinepower:blocks/brewer_top"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}],
+    "facing": {
+      "north": {},
+      "south": {"y": 180},
+      "west": {"y": 270},
+      "east": {"y": 90},
+      "up": {"x": -90},
+      "down": {"x": 90}
+    }
+  }
+}

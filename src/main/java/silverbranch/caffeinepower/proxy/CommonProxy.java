@@ -10,7 +10,8 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import silverbranch.caffeinepower.ModBlocks;
-import silverbranch.caffeinepower.furnace.BlockCoffeeGen;
+import silverbranch.caffeinepower.blocks.BlockBrewer;
+import silverbranch.caffeinepower.blocks.BlockCoffeeGen;
 
 @Mod.EventBusSubscriber
 public class CommonProxy {
@@ -26,10 +27,12 @@ public class CommonProxy {
     @SubscribeEvent
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
         event.getRegistry().register(new BlockCoffeeGen());
+        event.getRegistry().register(new BlockBrewer());
     }
 
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
         event.getRegistry().register(new ItemBlock(ModBlocks.blockCoffeeGen).setRegistryName(BlockCoffeeGen.COFFEEGEN));
+        event.getRegistry().register(new ItemBlock(ModBlocks.blockBrewer).setRegistryName(BlockBrewer.BREWER));
     }
 }
