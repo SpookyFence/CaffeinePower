@@ -1,6 +1,7 @@
 package silverbranch.caffeinepower.blocks;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.block.state.BlockStateContainer;
@@ -8,6 +9,7 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.Item;
+import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
@@ -16,8 +18,11 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import silverbranch.caffeinepower.CaffeinePower;
+import silverbranch.caffeinepower.tileentities.TileCoffeeGen;
 
-public class BlockCoffeeGen extends Block {
+import javax.annotation.Nullable;
+
+public class BlockCoffeeGen extends Block implements ITileEntityProvider {
 
     public static final ResourceLocation COFFEEGEN = new ResourceLocation(CaffeinePower.MODID, "coffeegen");
 
@@ -31,6 +36,12 @@ public class BlockCoffeeGen extends Block {
         setCreativeTab(CaffeinePower.creativeTab);
 
         setDefaultState(blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
+    }
+
+    @Nullable
+    @Override
+    public TileEntity createNewTileEntity(World worldIn, int meta) {
+        return new TileCoffeeGen();
     }
 
     @SideOnly(Side.CLIENT)

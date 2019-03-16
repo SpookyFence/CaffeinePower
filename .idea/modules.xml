@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CaffeinePower.iml" filepath="$PROJECT_DIR$/CaffeinePower.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CaffeinePower_api.iml" filepath="$PROJECT_DIR$/.idea/modules/CaffeinePower_api.iml" group="CaffeinePower" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CaffeinePower_main.iml" filepath="$PROJECT_DIR$/.idea/modules/CaffeinePower_main.iml" group="CaffeinePower" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CaffeinePower_test.iml" filepath="$PROJECT_DIR$/.idea/modules/CaffeinePower_test.iml" group="CaffeinePower" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.yourname.modid.CaffeinePower2.iml" filepath="$PROJECT_DIR$/.idea/modules/com.yourname.modid.CaffeinePower2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.yourname.modid.CaffeinePower2.api.iml" filepath="$PROJECT_DIR$/.idea/modules/com.yourname.modid.CaffeinePower2.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.yourname.modid.CaffeinePower2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.yourname.modid.CaffeinePower2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.yourname.modid.CaffeinePower2.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.yourname.modid.CaffeinePower2.test.iml" />
     </modules>
   </component>
 </project>
